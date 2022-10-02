@@ -39,6 +39,7 @@ public class MainJFrame extends javax.swing.JFrame {
         ControlPanel = new javax.swing.JPanel();
         btnCreateEmployee = new javax.swing.JButton();
         btnViewEmployee = new javax.swing.JButton();
+        btnSearch1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(800, 600));
@@ -100,18 +101,27 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        btnSearch1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnSearch1.setText("Search Employee");
+        btnSearch1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSearch1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout ControlPanelLayout = new javax.swing.GroupLayout(ControlPanel);
         ControlPanel.setLayout(ControlPanelLayout);
         ControlPanelLayout.setHorizontalGroup(
             ControlPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(ControlPanelLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(ControlPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnSearch1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(ControlPanelLayout.createSequentialGroup()
-                        .addGap(14, 14, 14)
-                        .addComponent(btnViewEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ControlPanelLayout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnCreateEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(ControlPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnCreateEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnViewEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
 
@@ -122,9 +132,11 @@ public class MainJFrame extends javax.swing.JFrame {
             .addGroup(ControlPanelLayout.createSequentialGroup()
                 .addGap(98, 98, 98)
                 .addComponent(btnCreateEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(91, 91, 91)
+                .addGap(76, 76, 76)
                 .addComponent(btnViewEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(281, Short.MAX_VALUE))
+                .addGap(80, 80, 80)
+                .addComponent(btnSearch1)
+                .addContainerGap(187, Short.MAX_VALUE))
         );
 
         ControlPanelLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnCreateEmployee, btnViewEmployee});
@@ -160,6 +172,12 @@ public class MainJFrame extends javax.swing.JFrame {
          ViewJPanel viewpanel = new ViewJPanel(employeHistory);
         SplitPane.setRightComponent(viewpanel);
     }//GEN-LAST:event_btnViewEmployeeActionPerformed
+
+    private void btnSearch1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSearch1ActionPerformed
+        // TODO add your handling code here:
+        SearchJPanel searchpanel = new SearchJPanel(employeHistory);
+        SplitPane.setRightComponent(searchpanel);
+    }//GEN-LAST:event_btnSearch1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -202,6 +220,8 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JSplitPane SplitPane;
     private javax.swing.JPanel WorkPanel;
     private javax.swing.JButton btnCreateEmployee;
+    private javax.swing.JButton btnSearch;
+    private javax.swing.JButton btnSearch1;
     private javax.swing.JButton btnViewEmployee;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
