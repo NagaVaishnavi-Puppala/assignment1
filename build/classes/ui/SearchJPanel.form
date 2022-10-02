@@ -158,6 +158,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblName">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Name:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -169,6 +172,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblEmployeeId">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Employee ID:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -180,6 +186,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblAge">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Age:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -188,6 +197,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblGender">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Gender:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -199,6 +211,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblStartDate">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Start Date:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -207,6 +222,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblLevel">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Level:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -218,6 +236,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblTeamInfo">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Team Info:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -229,6 +250,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblPositionTitle">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Position Title:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -237,6 +261,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblCellPhoneNumber">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Cell Phone Number:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -245,6 +272,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblEmailAddress">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Email Address:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -266,6 +296,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnSearch">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Search"/>
       </Properties>
       <Events>

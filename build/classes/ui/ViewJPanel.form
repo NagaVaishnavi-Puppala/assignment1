@@ -16,91 +16,86 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnView" linkSize="1" min="-2" pref="110" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="btnDelete" linkSize="1" min="-2" pref="105" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="505" max="-2" attributes="0"/>
+          </Group>
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
-                              <Component id="btnUpdate" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                              <Component id="txtPhotoArea" min="-2" pref="95" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
+                          <Component id="btnUpdate" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                          <Component id="txtPhotoArea" min="-2" pref="95" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="lblEmailAddress" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblCellPhoneNumber" alignment="0" pref="130" max="32767" attributes="0"/>
+                              <Component id="lblPositionTitle" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblTeamInfo" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblLevel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblStartDate" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblAge" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblEmployeeId" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblName" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblGender" alignment="0" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="lblEmailAddress" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="lblCellPhoneNumber" alignment="0" pref="130" max="32767" attributes="0"/>
-                                  <Component id="lblPositionTitle" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="lblTeamInfo" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="lblLevel" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="lblStartDate" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="lblAge" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="lblEmployeeId" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="lblName" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="lblGender" alignment="0" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="txtCellPhoneNumber" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                  <Component id="txtPositionTitle" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                  <Component id="txtEmailAddress" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="txtName" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                          <Component id="txtEmployeeId" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                          <Component id="txtTeamInfo" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                          <Component id="txtLevel" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                          <Component id="txtGender" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                          <Component id="txtAge" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
-                                          <Component id="txtStartDate" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtCellPhoneNumber" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                              <Component id="txtPositionTitle" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                              <Component id="txtEmailAddress" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtName" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                                      <Component id="txtEmployeeId" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                                      <Component id="txtTeamInfo" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                                      <Component id="txtLevel" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                                      <Component id="txtGender" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                                      <Component id="txtAge" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                                      <Component id="txtStartDate" alignment="0" min="-2" pref="236" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                          <Component id="lblPhotoArea" min="-2" pref="165" max="-2" attributes="0"/>
                                       </Group>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                              <Component id="lblPhotoArea" min="-2" pref="165" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
-                                              <Component id="btnUpdatePhoto" min="-2" max="-2" attributes="0"/>
-                                          </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                          <Component id="btnUpdatePhoto" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="121" max="32767" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
-                              <Component id="btnDelete" min="-2" pref="105" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="297" max="-2" attributes="0"/>
-                              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                              <Component id="btnView" min="-2" pref="110" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="ScrollPane" alignment="0" min="-2" pref="739" max="-2" attributes="0"/>
-                      </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="281" max="-2" attributes="0"/>
+                      <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="ScrollPane" min="-2" pref="739" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace pref="462" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
               <Component id="lblTitle" min="-2" pref="28" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               <Component id="ScrollPane" min="-2" pref="128" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnView" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnDelete" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -171,6 +166,9 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="lblTeamInfo">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Team Info:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -179,6 +177,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblPositionTitle">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Position Title:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -214,6 +215,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblStartDate">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Start Date:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -222,6 +226,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblAge">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Age:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -243,18 +250,27 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblEmailAddress">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Email Address:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblGender">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Gender:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblCellPhoneNumber">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Cell Phone Number:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -265,12 +281,18 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblLevel">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Level:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblEmployeeId">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Employee ID:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
@@ -282,12 +304,18 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblName">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Name:"/>
         <Property name="horizontalTextPosition" type="int" value="4"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnView">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="View"/>
       </Properties>
       <Events>
@@ -305,6 +333,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnDelete">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Delete"/>
       </Properties>
       <Events>
@@ -320,6 +351,9 @@
       <SubComponents>
         <Component class="javax.swing.JTable" name="tblEmployee">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="4" rowCount="4">
                 <Column editable="true" title="Name" type="java.lang.Object"/>

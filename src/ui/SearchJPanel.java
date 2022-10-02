@@ -67,6 +67,7 @@ public class SearchJPanel extends javax.swing.JPanel {
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Search Employe Details");
 
+        lblName.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblName.setText("Name:");
         lblName.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
@@ -76,6 +77,7 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
+        lblEmployeeId.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblEmployeeId.setText("Employee ID:");
         lblEmployeeId.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
@@ -85,9 +87,11 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
+        lblAge.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblAge.setText("Age:");
         lblAge.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
+        lblGender.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblGender.setText("Gender:");
         lblGender.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
@@ -97,9 +101,11 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
+        lblStartDate.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblStartDate.setText("Start Date:");
         lblStartDate.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
+        lblLevel.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblLevel.setText("Level:");
         lblLevel.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
@@ -109,6 +115,7 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
+        lblTeamInfo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblTeamInfo.setText("Team Info:");
         lblTeamInfo.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
@@ -118,12 +125,15 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
+        lblPositionTitle.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblPositionTitle.setText("Position Title:");
         lblPositionTitle.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
+        lblCellPhoneNumber.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblCellPhoneNumber.setText("Cell Phone Number:");
         lblCellPhoneNumber.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
+        lblEmailAddress.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblEmailAddress.setText("Email Address:");
         lblEmailAddress.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
@@ -136,6 +146,7 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnSearch.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnSearch.setText("Search");
         btnSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
